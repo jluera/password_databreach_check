@@ -6,4 +6,4 @@
 
 When you run the script via cli, you can enter one or more passwords to check.
 
-![Screenshot 2023-04-22 at 5 33 00 PM](https://user-images.githubusercontent.com/367461/233810454-2fb85b19-15d4-47ed-a13c-229cd0746cab.png)
+!![Screenshot 2023-04-22 at 5 34 25 PM](https://user-images.githubusercontent.com/367461/233810494-bf2c9e3e-47cc-4980-b072-1e009b18dd65.png)
