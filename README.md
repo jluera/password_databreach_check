@@ -24,3 +24,8 @@ This allows us to only provide the first 5 characters of the SHA-1 hash of the p
 People smarter than I am have used math to prove that 5-character prefixes are sufficient to maintain k-anonymity for this database.
 
 In short: your plaintext passwords are protected if you use this library. You won't leak enough data to identity which passwords you're searching for."
+
+## Also:
+"pwnedpasswords automatically checks if your provided input looks like a SHA-1 hash. If it does, it won't do any further processing. If it looks like plain text, it'll automatically hash it before sending it to the Pwned Passwords API.
+
+If you'd like to provide an already-hashed password as input to pwnedpasswords, you don't need to do anything--pwnedpasswords will detect that it looks like a SHA-1 hash and won't hash it again before sending it to the range endpoint."
