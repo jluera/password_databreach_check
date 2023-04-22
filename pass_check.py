@@ -3,7 +3,7 @@ import requests
 import hashlib 
 
 def request_pwned_api_call(query_char):
-    """ actual API call """
+    """ The actual API call """
     url = 'https://api.pwnedpasswords.com/range/' + query_char
     res = requests.get(url)
     if res.status_code != 200:
