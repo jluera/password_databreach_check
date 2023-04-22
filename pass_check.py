@@ -27,7 +27,7 @@ def submit_pwned_pass_check(password):
 
 def main(args):
     for password in args:
-        count = submit_pwned_pass_checkk(password)
+        count = submit_pwned_pass_check(password)
         if count:
             print(f'The password {password} was referenced in {count} databreaches according to pwnedpasswords.')
         else:
